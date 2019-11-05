@@ -1,0 +1,135 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.menu ul li a{
+		text-align: right;
+        padding: 0 !important;
+	}
+	/*header end*/
+	/*slider start*/
+	.slider{
+		padding-bottom: 70px;
+	}
+	.inspire{
+		margin-top: 0px;
+	}
+	.inspire h1{
+		font-size: 26px;
+	}
+	.inspire h2{
+		letter-spacing: 0px;
+	}
+	.inspire p{
+		word-spacing: 0px;
+	}
+	.l_inline{
+		text-align: center;
+	}
+	.inspire .list-inline li {
+		font-size: 40px;
+        margin-right: 20px;
+    }
+    .cid{
+    	bottom: -55px;
+    }
+
+    /*feature start*/
+    .feature{
+		text-align: center;
+		padding-top: 55px;
+        padding-bottom: 55px;
+	}
+
+	.c_title { margin-bottom: 0; }
+	.c_title h1{ font-size: 28px; }
+	.c_title p{ font-size: 18px;
+	word-spacing: 0;
+	letter-spacing: 0; }
+
+	.s_content{
+	margin-top: 0px;
+}
+
+	.padd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    .form{
+    	text-align: center;
+    }
+    .btn-custom{
+    	margin-top: 15px;
+    }
+
+    /*footer*/.m_top{margin-top: 0px;}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu ul li a{
+		text-align: right;
+        padding: 0 !important;
+	}
+	/*header end*/
+	/*slider start*/
+	.inspire{
+		margin-top: 10px;
+	}
+	/*feature*/
+	.feature{
+	text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+	}
+	.c_title{
+		margin-bottom: 0px; 
+	}
+	.c_title p{
+		letter-spacing: 0 ;
+        word-spacing: 0 ;
+	}
+
+	.padd {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    .btn-custom{
+    	padding: 11px 25px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a{
+		text-align: right;
+        padding: 0 !important;
+	}
+	/*header end*/
+	/*slider start*/
+	.inspire{
+		margin-top: 50px;
+	}
+	/*feature starts*/
+	.feature {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+    .btn-custom{
+    	padding: 11px 29px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
